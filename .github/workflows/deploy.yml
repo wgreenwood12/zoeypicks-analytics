@@ -1,0 +1,11 @@
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Debug
+        run: |
+          echo "Running tests..."
+          pwd
+          ls -la

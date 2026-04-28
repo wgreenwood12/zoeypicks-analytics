@@ -2,7 +2,7 @@ import json
 
 def lambda_handler(event, context):
     # TODO implement
-
+#
     print(f"Event: {event}")
     return {
         'statusCode': 200,
